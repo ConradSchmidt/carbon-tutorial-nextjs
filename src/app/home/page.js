@@ -18,7 +18,6 @@ import {
   AcceleratingTransformation,
 } from '@carbon/pictograms-react';
 import { InfoSection, InfoCard } from '@/components/Info/Info';
-import Image from 'next/image';
 
 export default function LandingPage() {
   return (
@@ -60,9 +59,9 @@ export default function LandingPage() {
                   <Button>Learn more</Button>
                 </Column>
                 <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
-                  <Image
+                  <img
                     className="landing-page__illo"
-                    src="/tab-illo.png"
+                    src="./tab-illo.png"
                     alt="Carbon illustration"
                     width={786}
                     height={647}
